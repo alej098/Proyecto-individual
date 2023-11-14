@@ -1,0 +1,143 @@
+.navbar-cont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.background-image {
+  background-image: url('https://scontent.feoh3-1.fna.fbcdn.net/v/t1.6435-9/142666635_2132398806890154_7815822284936163945_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=7a1959&_nc_eui2=AeEwWDxiPN6Y2mWkcrN9wVeUuHyjHgkM99q4fKMeCQz32u_UcHomFRgXn-qAbxn8Hcn754Nmju3F8OX5laLjGJW5&_nc_ohc=xjAOd0X3jygAX8s9yfi&_nc_ht=scontent.feoh3-1.fna&oh=00_AfByrDAl5m_Dtb-PayWRyrY0L2yW5dl8xcuT9Ul4tMYfmQ&oe=65679111');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.enter-button-landing{
+   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.compo-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #ccc;
+  border-radius: 5px;
+  width: 20rem;
+  margin: 8px;
+  padding: 5px;
+  background-color: rgb(192, 190, 190); /* Agrega un fondo de color sólido para el contenido de las tarjetas */
+}
+  .compo-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .compo-card-info {
+    text-align: center;
+  }
+  
+  .compo-card-info label {
+    font-weight: bold;
+    display: block; /* Hacer que las etiquetas estén una encima de la otra */
+    margin-bottom: 5px; /* Agregar un margen inferior para separar las etiquetas */
+  }
+  
+  .compo-card-info span {
+    margin-bottom: 5px;
+  }
+  .compo-cards{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    margin-top: 14%;
+    flex-wrap: wrap;
+    
+  }
+  .home-compo {
+    
+    background-image: url('https://st.depositphotos.com/1003366/4245/i/450/depositphotos_42451537-stock-photo-group-of-dogs.jpg');
+    display: flex;
+    align-items: center;
+     z-index: -1;
+  }
+  
+  .botons-ordenar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+  }
+  
+  .pagination-container {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    bottom: 75%; /* Ajusta la posición vertical del contenedor de paginación */
+    left: 50%; /* Centra horizontalmente el contenedor de paginación */
+    transform: translateX(-50%); /* Centra exactamente el contenedor de paginación */
+  }
+  .pagination-container button {
+    margin-bottom: 20px; /* Espacio entre los botones */
+  } 
+  
+  .cont-searchBar {
+    position: absolute;
+    top: 100px;
+    right: 80px;
+    z-index: 1; /* Add this line to set the z-index of the search bar container */
+  }
+  .botons-ordenar {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+  .detail-container {
+    background-image: url('https://st.depositphotos.com/1003366/4245/i/450/depositphotos_42451537-stock-photo-group-of-dogs.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .dog-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 10px solid #ccc;
+    border-radius: 5px;
+    width: 20rem;
+    margin: 8px;
+    padding: 5px;
+  }
+  
+  .dog-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .dog-info {
+    margin-bottom: 10px;
+  }
+  .create-container {
+    background-image: url('https://img.freepik.com/vector-gratis/lindo-personaje-dibujos-animados-perro-sentado_1308-135528.jpg');
+    background-size: cover;
+    height: 980px; 
+    width: 95%;
+  }  
